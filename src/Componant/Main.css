@@ -1,0 +1,41 @@
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-container{
+    flex: 1;
+}
+.descreption{
+    flex: 6;
+}
+.quantite{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quantite button{
+    background-color:#93ce08;
+    color: white;
+    font-size: 1.3em;
+    padding:3px 10px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.quantite button:hover{
+    background-color: #bee50e;
+}
+
+@media (max-width:1023px){
+    .quantite{
+        gap: 10px;
+    }
+}
+@media (max-width:1023px){
+    #main{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

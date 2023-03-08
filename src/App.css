@@ -1,0 +1,19 @@
+#container{
+  width:100%;
+  min-height: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(172, 170, 170),-1px -1px 10px rgb(172, 170, 170);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  z-index: 4;
+  position: relative;
+}
+
+@media(max-width:1023px){
+  #container{
+    padding: 5px;
+    gap: 50px;
+  }
+}

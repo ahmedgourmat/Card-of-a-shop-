@@ -1,0 +1,28 @@
+#btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#btn-container button{
+    width:400px;
+    padding:20px;
+    text-align: center;
+    border: none;
+    border-radius:10px;
+    background-color: #92CE08;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#btn-container button:hover{
+    background-color: #bee50e;
+}
+@media (max-width:1023px){
+    #btn-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #btn-container button{
+        width: 80%
+    }
+}

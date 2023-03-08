@@ -1,0 +1,23 @@
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left-side{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#left-side >p{
+    font-size: 1.2em;
+}
+@media(max-width:587px){
+    #head{
+        flex-direction: column;
+    }
+}
+@media(max-width:440px){
+    #left-side{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,42 @@
+#thanks-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100vh;
+    z-index: 2;
+}
+#thanks{
+    position: absolute;
+    left: 30%;
+    top:-80%;
+    width: 40%;
+    min-height: 500px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    z-index: 5;
+    background-color: white;
+    border-radius: 20px;
+    transition: all ease 0.5s;
+    box-shadow: 5px 5px 10px rgb(92, 92, 92),-5px -5px 10px rgb(92, 92, 92);
+}
+#thanks h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+#thanks button{
+    width:80%;
+    padding:20px;
+    text-align: center;
+    border: none;
+    border-radius:10px;
+    background-color: #92CE08;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#thanks button:hover{
+    background-color: #bee50e;
+}
